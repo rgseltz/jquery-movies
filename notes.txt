@@ -1,0 +1,9 @@
+Build an app that uses jQuery to create a form with two inputs: one for a title and one for a rating, and then append a button that submits the form. 
+
+When the form is submitted, capture the values for each of the inputs and append htem to the DOM along with a new button to remove each title and rating from the DOMWhen remove button is clicked, remove each title and rating from the DOM
+
+Step 1: Create forms and button to append to DOM
+    I think the forms and submit button should be wrapped inside a div with an id of "movie-form"
+    create div element then append to body element. then create forms and button element and appen them into the div
+
+Step 2: Add event listener to submit button that creates a new element with that text information and a delete button and append in a div below
